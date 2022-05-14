@@ -30,6 +30,7 @@ public class DateServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>" + message + date + "</h1>");
         out.println("</body></html>");
+        out.close();
     }
 
     public void destroy() {

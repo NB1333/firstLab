@@ -9,26 +9,24 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<form action="${pageContext.request.contextPath}/bykov.html">
-    <input type="submit" value="Nikita Bykov"/>
-</form>
+<button onclick="window.location.href='${pageContext.request.contextPath}/bykov.html';">
+    Nikita Bykov
+</button>
 <br>
-<form action="${pageContext.request.contextPath}/romanenko.html">
-    <input type="submit" value="Vlad Romanenko"/>
-</form>
+<button onclick="window.location.href='${pageContext.request.contextPath}/romanenko.html';">
+    Vlad Romanenko
+</button>
 <br>
-<form action="${pageContext.request.contextPath}/paukov.html">
-    <input type="submit" value="Nikita Paukov"/>
-</form>
+<button onclick="window.location.href='${pageContext.request.contextPath}/paukov.html';">
+    Nikita Paukov
+</button>
 <br>
-<form action="${pageContext.request.contextPath}/date">
-    <input type="submit" value="Date and time"/>
-</form>
+<button onclick="window.location.href='${pageContext.request.contextPath}/date';">
+    Date and time
+</button>
 <br>
-<form action="https://www.youtube.com/watch?v=9o1jmMaWsr8&pp=ugMICgJydRABGAE%3D">
-    <input type="submit" value="Pizza"/>
-</form>
-<br>
-<button type="button">Click Me!</button>
+<button onclick="window.location.href='https://www.youtube.com/watch?v=9o1jmMaWsr8&pp=ugMICgJydRABGAE%3D';">
+    Pizza
+</button>
 </body>
 </html>
